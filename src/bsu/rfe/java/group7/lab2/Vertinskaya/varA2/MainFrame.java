@@ -185,6 +185,7 @@ public class MainFrame extends JFrame {
         MainFrame frame = new MainFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        System.out.println("omg it works");
     }
 }
 
