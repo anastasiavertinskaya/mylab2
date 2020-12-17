@@ -1,5 +1,5 @@
 package bsu.rfe.java.group7.lab2.Vertinskaya.varA2;
-
+//lab2 varA2
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
