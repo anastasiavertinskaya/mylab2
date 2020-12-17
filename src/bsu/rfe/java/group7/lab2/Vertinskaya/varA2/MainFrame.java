@@ -21,7 +21,7 @@ public class MainFrame extends JFrame {
 
     public double calculate1 (double x, double y, double z) {
         if (x < 0) {
-            //JOptionPane.showMessageDialog(MainFrame.this,
+            JOptionPane.showMessageDialog(MainFrame.this,
                     "X не может быть отрицательным", " " +
                             "Ошибка ввода", JOptionPane.WARNING_MESSAGE);
             return 0.0;
@@ -31,13 +31,13 @@ public class MainFrame extends JFrame {
     }
     public double calculate2 (double x, double y, double z) {
         if (z < 0) {
-            //JOptionPane.showMessageDialog(MainFrame.this,
+            JOptionPane.showMessageDialog(MainFrame.this,
                     "Z не может быть отрицательным", " " +
                             "Ошибка ввода", JOptionPane.WARNING_MESSAGE);
             return 0.0;
         }
         if (z == 1) {
-            //JOptionPane.showMessageDialog(MainFrame.this,
+            JOptionPane.showMessageDialog(MainFrame.this,
                     "Знаменатель дроби не должен равняться нулю", " " +
                             "Ошибка ввода", JOptionPane.WARNING_MESSAGE);
             return 0.0;
